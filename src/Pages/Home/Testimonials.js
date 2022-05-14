@@ -1,8 +1,8 @@
 import React from 'react';
 import quote from '../../assets/icons/quote.svg';
-import people1 from '../../assets/images/people1.png'
-import people2 from '../../assets/images/people2.png'
-import people3 from '../../assets/images/people3.png'
+import people1 from '../../assets/images/people1.png';
+import people2 from '../../assets/images/people2.png';
+import people3 from '../../assets/images/people3.png';
 import Review from './Review';
 
 const Testimonials = () => {
@@ -24,7 +24,7 @@ const Testimonials = () => {
             name: 'Winson Herry',
             location:'california',
             img: people3
-        },
+        }
     ];
     return (
         <section className='my-20'>
