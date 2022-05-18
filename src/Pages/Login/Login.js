@@ -50,7 +50,7 @@ const Login = () => {
                             <label class="label">
                                 <span class="label-text">Email</span>
                             </label>
-                            <input type="email" placeholder="your email" class="input input-bordered w-full max-w-xs"
+                            <input type="email" placeholder="Your Email" class="input input-bordered w-full max-w-xs"
                                 {...register("email", {
                                     required: {
                                         value: true,
@@ -73,7 +73,7 @@ const Login = () => {
                             <label class="label">
                                 <span class="label-text">Password</span>
                             </label>
-                            <input type="password" placeholder="password" class="input input-bordered w-full max-w-xs"
+                            <input type="password" placeholder="Password" class="input input-bordered w-full max-w-xs"
                                 {...register("password", {
                                     required: {
                                         value: true,
@@ -83,7 +83,7 @@ const Login = () => {
                                         value: 6,
                                         message: 'Must be 6 characters or longer'
                                     }
-                                })}
+                                })} 
                             />
                             <label class="label">
                                 {errors.password?.type === 'required' && <span class="label-text-alt text-red-500">{errors.password.message}</span>}
@@ -97,7 +97,7 @@ const Login = () => {
 
                         <input className='btn w-full max-w-xs' type="submit" value="Login" />
                     </form>
-                    <p><small>New to Doctors Portal <Link className='text-secondary' to="/signup">Create New Account</Link></small></p>
+                    <p><small>New to Doctors Portal...? <Link className='text-secondary' to="/signup">Create New Account</Link></small></p>
 
                     <div className="divider">OR</div>
                     <button
